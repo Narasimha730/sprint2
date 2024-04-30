@@ -1,0 +1,51 @@
+.car-main-container {
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 90%;
+}
+
+
+.car-main-container1 {
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 90%;
+}
+
+.car_ratings {
+    border: 1px solid;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.car_card {
+    width: "20rem";
+}
+
+.car_card:hover {
+    box-shadow: 6px 6px rgb(180, 172, 172);
+}
+
+.car_main_container {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+
+.car_images {
+    height: 200px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.car_ratings {
+
+    background-color: green;
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 20px;
+
+}

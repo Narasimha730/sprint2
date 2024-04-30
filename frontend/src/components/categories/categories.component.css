@@ -1,0 +1,66 @@
+.Main-container {
+    background-color: #958989;
+    /* height: 500px; */
+    /* margin-top: 23px; */
+}
+
+
+
+
+.restaurant {
+    height: 90px;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 55px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.box-1 :hover {
+    background-color: rgb(161, 160, 160);
+}
+
+.resutrant-heading {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 5px;
+    text-align: center
+}
+
+
+
+.header-title {
+    font-size: 4.2rem;
+}
+
+.header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 760px;
+}
+
+.mpc {
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #ff0000;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.box img {
+    display: block;
+    margin: 0 auto 10px;
+    border: 2px solid #00ff00;
+}

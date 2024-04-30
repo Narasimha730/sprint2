@@ -1,0 +1,116 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 29px 0;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-logo img {
+    width: 190px;
+
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+.footer-links ul li a:hover {
+    color: #ccc;
+
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social ul li:last-child {
+    margin-right: 0;
+
+}
+
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.footer-bottom {
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.footer-bottom p {
+    margin: 0;
+
+}
+
+.footer-logo {
+    text-align: center;
+    /* Center align the content */
+}
+
+.footer-logo .col {
+    display: inline-block;
+    /* Display as inline-block to center align */
+}
+
+.footer-logo img {
+    width: 100px;
+    /* Adjust the width of the image as needed */
+    height: 100%;
+    /* Maintain aspect ratio */
+}
+
+.header-website-name {
+    font-size: 1.2rem;
+    /* Adjust font size as needed */
+    color: #333;
+    /* Set color for the text */
+    margin-top: 15px;
+    /* Adjust margin from the top */
+}

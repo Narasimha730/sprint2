@@ -1,0 +1,36 @@
+.image {
+  height: 400px;
+  width: 100%
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-container>div {
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  align-items: center;
+}
+
+.services-images {
+  width: 280px;
+  height: 200px;
+  padding-top: 9px;
+}
+
+@media screen and(max-width:768px) {
+  .our-services {
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+}
