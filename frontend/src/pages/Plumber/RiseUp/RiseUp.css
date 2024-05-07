@@ -1,127 +1,106 @@
-.car {
+.root {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+
+}
+
+
+.car-image {
+    margin-right: 30px;
+
+
+}
+
+.car-image img {
+    max-width: 100%;
+}
+
+.car-image {
+    display: flex;
+    justify-content: center;
+}
+
+.car-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.book-car {
+    max-width: 600px;
+
+}
+
+.book-car h2 {
+    margin-top: 0;
+}
+
+.book-car form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.book-car form div {
+    display: grid;
+    gap: 5px;
+}
+
+.book-car form label {
+    font-weight: bold;
+}
+
+.book-car form input {
     width: 100%;
-    max-width: 1400px;
+}
+
+.book-car form small {
+    font-size: 12px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.submit-button:hover {
+    background-color: #39b300e9;
+}
+
+
+.car_info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    /* Adjust as needed */
     margin: 0 auto;
 }
 
-.carimage {
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-right: 20px;
-}
-
-.car_info {
-    width: 20%;
-    margin-right: 20px;
+h2 {
+    font-weight: bold;
+    color: black;
+    /* Your desired color */
 }
 
 .car_info h3 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.car_info .car_ratings {
-    /* border: 2px solid; */
-    background-color: green;
-    /* color: white; */
-    padding: 1px;
-    border-radius: 5px;
-    margin-left: 100px;
-
+    margin-top: 0;
 }
 
 .car_info h6 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.review_book_container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 35%;
-}
-
-.review,
-.book_car {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 45%;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.review label,
-.book_car label {
-    display: block;
-    font-size: 16px;
-    font-weight: bold;
     margin-bottom: 5px;
 }
 
-.review input[type="text"],
-.review input[type="number"],
-.book_car input[type="text"],
-.book_car input[type="email"],
-.book_car input[type="tel"] {
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    width: 100%;
-}
-
-.review textarea,
-.book_car textarea {
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 16px;
-    width: 100%;
-    height: 150px;
-}
-
-.review button,
-.book_car button {
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: green;
-    color: white;
-    font-size: 16px;
-    align-self: flex-start;
-}
-
-.review button:hover,
-.book_car button:hover {
-    background-color: #008000;
-}
-
-.review input[type="submit"],
-.book_car input[type="submit"] {
-    align-self: center;
-}
-
-.review small,
-.book_car small {
-    font-size: 12px;
-    color: gray;
+.Car_timings {
+    color: #666;
+    font-style: italic;
 }

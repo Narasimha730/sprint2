@@ -18,7 +18,7 @@ export function PlumberMain() {
                                 <span><b>RiseUp</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export function PlumberMain() {
                                 <span><b>Cheap Plumbing Srevices</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export function PlumberMain() {
                                 <span><b>Ryan Alwady Electrical</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -103,7 +103,7 @@ export function PlumberMain() {
                                 <span><b>Plumbing Services</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -130,7 +130,7 @@ export function PlumberMain() {
                                 <span><b>Ryan Alwady Electrical</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -157,7 +157,7 @@ export function PlumberMain() {
                                 <span><b>GLPC</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>

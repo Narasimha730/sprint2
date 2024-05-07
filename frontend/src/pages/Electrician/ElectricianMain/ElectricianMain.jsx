@@ -17,7 +17,7 @@ export function ElectricianMain() {
                                 <span><b>Jumbo electronics</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export function ElectricianMain() {
                                 <span><b>SharafDg</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
                             </div>
                         </div>
                         <div className='row'>
@@ -74,7 +74,7 @@ export function ElectricianMain() {
                             </div>
                             <div className='col-2'>
 
-
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
                             </div>
                         </div>
                         <div className='row'>
@@ -106,7 +106,7 @@ export function ElectricianMain() {
                                 <span><b>Emax</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -135,7 +135,7 @@ export function ElectricianMain() {
                                 <span><b>Ecity Electronix</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -163,7 +163,7 @@ export function ElectricianMain() {
                                 <span><b>Mag</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>

@@ -18,7 +18,7 @@ export function CarMain() {
                                 <span><b>BMW X6 Model</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export function CarMain() {
                                 <span><b>Mercedes-Benz GLE</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export function CarMain() {
                                 <span><b>Mercedes-Benz EQS</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -103,7 +103,7 @@ export function CarMain() {
                                 <span><b>Lamborghini Huracan EVO</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -130,7 +130,7 @@ export function CarMain() {
                                 <span><b>Ford Mustang</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -157,7 +157,7 @@ export function CarMain() {
                                 <span><b>Mercedes-Benz EQS</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+
 
                             </div>
                         </div>
@@ -165,7 +165,9 @@ export function CarMain() {
                             <div className='col-8'>
                                 <p>Mercedes-Benz is a germany luxury car brand.</p>
                             </div>
-                            <div className='col-2'></div>
+                            <div className='col-2'>
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
+                            </div>
                         </div>
                         <div className='row'>
                             <div className='col-8'>

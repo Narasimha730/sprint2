@@ -18,7 +18,7 @@ export function GroceryMain() {
                             </div>
                             <div className='col-2'>
 
-
+                                <span className='car_ratings'>4.5&nbsp;<StarFill></StarFill></span>
                             </div>
                         </div>
                         <div className='row'>
@@ -44,7 +44,7 @@ export function GroceryMain() {
                                 <span><b>Carrefour</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
                             </div>
                         </div>
                         <div className='row'>
@@ -69,7 +69,7 @@ export function GroceryMain() {
                                 <span><b>Lulu hyper market</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.4&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -100,7 +100,7 @@ export function GroceryMain() {
                                 <span><b>Spinneys</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -127,7 +127,7 @@ export function GroceryMain() {
                                 <span><b>Union Coop</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -153,7 +153,7 @@ export function GroceryMain() {
                                 <span><b>Carrefour</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>

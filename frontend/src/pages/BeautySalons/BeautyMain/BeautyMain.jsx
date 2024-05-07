@@ -22,7 +22,7 @@ export function BeautyMain() {
                                 </b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export function BeautyMain() {
                                 <span><b>Hair & Nail Salons </b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export function BeautyMain() {
                                 <span><b>Sugar BeautySalon</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -107,7 +107,7 @@ export function BeautyMain() {
                                 <span><b>Nstyle Beauty Lounge</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -134,7 +134,7 @@ export function BeautyMain() {
                                 <span><b>Delux Beauty Women Salon</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -160,7 +160,7 @@ export function BeautyMain() {
                                 <span><b>Brows&Lips</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>

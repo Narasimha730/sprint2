@@ -17,7 +17,7 @@ export function FitnesscenterMain() {
                                 <span><b>GymNation Motor City</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export function FitnesscenterMain() {
                                 <span><b>Luxury fitness Center</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.1&nbsp;<StarFill></StarFill></span>
                             </div>
                         </div>
                         <div className='row'>
@@ -69,7 +69,7 @@ export function FitnesscenterMain() {
                                 <span><b>Roar Fitness Center</b></span>
                             </div>
                             <div className='col-2'>
-
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -100,7 +100,7 @@ export function FitnesscenterMain() {
                                 <span><b>VIP Gym</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -127,7 +127,7 @@ export function FitnesscenterMain() {
                                 <span><b>Luxury Gym</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -153,7 +153,7 @@ export function FitnesscenterMain() {
                                 <span><b>GymNation DownTown</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>

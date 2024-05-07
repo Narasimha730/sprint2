@@ -1,130 +1,128 @@
 .dashboard {
-    /* background-color: #c6e2e2; */
-    padding: 20px;
-    height: 85vh;
-    overflow-y: auto;
-    position: fixed;
-    width: 300px;
-    margin-top: 10px;
-    
-    /* border-radius: 10px;
-    border: 1px solid rgb(216, 212, 212); */
-  }
-  
-  .custom-input {
-    border-radius: 5px;
-    width: 80%;
-    border: 2px solid silver;
-      
+  /* background-color: #c6e2e2; */
+  padding: 20px;
+  height: 85vh;
+  overflow-y: auto;
+  position: fixed;
+  width: 300px;
+  margin-top: 10px;
 
-  }
-  .search_btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: #e9b150;
-    border-color: #38382b;
+
 }
-  .custom-input:focus {
-    border-radius: 5px;
-    border-color: rgb(209, 203, 116); /* Change border color on focus */
-    box-shadow: 0 0 0 0.15rem rgba(18, 19, 20, 0.25); /* Optional: Add box shadow for focus effect */
-  }
-  .search_btn {
-    border-radius: 5px;
-    margin-left: 5px;
-  }
-  
-  .add_btn button {
-    border-radius: 5px;
-  }
-  
-  .filter_div {
-    margin-top: 20px;
-  }
-  
-  .export_csv .btn {
-    border-radius: 5px;
-  }
 
-  
-  .filter_price,
-  .filter_newold,
-  .filter_status {
-    margin-top: 20px;
-  }
-  
-  .dropdown_btn {
-    border-radius: 5px;
-  }
-  
-  .status_radio input[type="radio"] {
-    margin-right: 5px;
-  }
-  
-  /* home.css */
+.custom-input {
+  border-radius: 5px;
+  width: 80%;
+  border: 2px solid silver;
+
+
+}
+
+.search_btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: #e9b150;
+  border-color: #38382b;
+}
+
+.custom-input:focus {
+  border-radius: 5px;
+  border-color: rgb(209, 203, 116);
+  /* Change border color on focus */
+  box-shadow: 0 0 0 0.15rem rgba(18, 19, 20, 0.25);
+  /* Optional: Add box shadow for focus effect */
+}
+
+.search_btn {
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.add_btn button {
+  border-radius: 5px;
+}
+
+.filter_div {
+  margin-top: 20px;
+}
+
+.export_csv .btn {
+  border-radius: 5px;
+}
+
+
+.filter_price,
+.filter_newold,
+.filter_status {
+  margin-top: 20px;
+}
+
+.dropdown_btn {
+  border-radius: 5px;
+}
+
+.status_radio input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* home.css */
 
 /* Style the custom search input */
 .custom-search-input {
-    border-radius: 20px; /* Add border radius */
-  }
-  
-  /* Style the icon */
-  .custom-input .input-group-text {
-    border-top-left-radius: 20px; /* Match the border radius of the input */
-    border-bottom-left-radius: 20px;
-  }
-  .custom-btn {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    /* Add any additional styles as needed */
-  } 
-  
+  border-radius: 20px;
+  /* Add border radius */
+}
 
-  .operation{
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight:500;
-    color: rgb(56, 53, 53);
+/* Style the icon */
+.custom-input .input-group-text {
+  border-top-left-radius: 20px;
+  /* Match the border radius of the input */
+  border-bottom-left-radius: 20px;
+}
 
-  }
-  .dashboard::-webkit-scrollbar {
-    width:8px; /* Width of the scrollbar */
-    
-  }
-  
-  .dashboard::-webkit-scrollbar-track {
-    background: #f3f1f1; /* Color of the scrollbar track */
-  }
-  
-  .dashboard::-webkit-scrollbar-thumb {
-    background: #b3b2b2; /* Color of the scrollbar thumb */
-    border-radius: 4px; /* Rounded corners for the scrollbar thumb */
-  }
-  
-  .dashboard::-webkit-scrollbar-thumb:hover {
-    background: #b36d13; /* Color of the scrollbar thumb on hover */
-  }
-  .hometop{
-   overflow-x: hidden;
-   
-  }
-  .searchdesign{
-    
-      padding-top: 30px; /* Adds 10 pixels of padding to the top */
-      padding-right: 20px; /* Adds 20 pixels of padding to the right */
-      padding-bottom: 10px; /* Adds 10 pixels of padding to the bottom */
-      padding-left: 20px; /* Adds 20 pixels of padding to the left */
-      /* background-color: #b3caca; */
-      border-radius: 10px;
-      width: 30%;
-     margin-left: 69%;
-    
-      
-    }
-    
-    .table-container{
-      margin-top: 10px;
-    }
-  
-  
-  
+.custom-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  /* Add any additional styles as needed */
+}
+
+
+.operation {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(56, 53, 53);
+
+}
+
+.dashboard::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+
+}
+
+.dashboard::-webkit-scrollbar-track {
+  background: #f3f1f1;
+  /* Color of the scrollbar track */
+}
+
+.dashboard::-webkit-scrollbar-thumb {
+  background: #b3b2b2;
+  /* Color of the scrollbar thumb */
+  border-radius: 4px;
+  /* Rounded corners for the scrollbar thumb */
+}
+
+.dashboard::-webkit-scrollbar-thumb:hover {
+  background: #b36d13;
+  /* Color of the scrollbar thumb on hover */
+}
+
+.hometop {
+  overflow-x: hidden;
+
+}
+
+.table-container {
+  margin-top: 10px;
+}

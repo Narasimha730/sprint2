@@ -18,7 +18,7 @@ export function TravelMain() {
                                 <span><b>Dnata Travels.</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export function TravelMain() {
                                 </b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.2&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -73,7 +73,7 @@ export function TravelMain() {
                                 <span><b>Green Apple Travel and Tourism.</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.7&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -104,7 +104,7 @@ export function TravelMain() {
                                 <span><b>Sharaf Travel.</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.0&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -131,7 +131,7 @@ export function TravelMain() {
                                 <span><b>Regal Tours.</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>3.5&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>
@@ -158,7 +158,7 @@ export function TravelMain() {
                                 <span><b>City One Tourism and Travel.</b></span>
                             </div>
                             <div className='col-2'>
-                                {/* <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span> */}
+                                <span className='car_ratings'>4.3&nbsp;<StarFill></StarFill></span>
 
                             </div>
                         </div>

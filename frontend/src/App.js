@@ -4,11 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Header from "./components/Headers/Headers";
 import Home from "./pages/Home/Home";
-import Register from "./pages/Register/Register";
-import Edit from "./pages/Edit/Edit";
-import Profile from "./pages/Profile/Profile";
-import { Routes, Route } from "react-router-dom"
-// import { MainPageComponent } from './pages/Mainpage/Mainpage';
+import { Routes, Route } from "react-router-dom";
 import { Footer } from './components/footer/footer.component';
 
 import { CarMain } from './pages/Car/CarMain/CarMain';
@@ -26,6 +22,8 @@ import { GroceryMain } from './pages/Groceries/GroceryMain/GroceryMain';
 import { Upscale } from './pages/Groceries/Upscale/Upscale';
 import { ElectricianMain } from './pages/Electrician/ElectricianMain/ElectricianMain';
 import { Voltronix } from './pages/Electrician/Voltronix/Voltronix';
+import About from './components/About/About';
+
 
 
 
@@ -38,11 +36,8 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='about' element={<About></About>} />
         <Route path='/homepage' element={<HomePageComponent></HomePageComponent>}></Route>
-        <Route path='/register' element={<Register />} />
-        <Route path='/edit/:id' element={<Edit />} />
-        <Route path='/userprofile/:id' element={<Profile />} />
-
         <Route path="/fitnessCenters" element={<FitnesscenterMain></FitnesscenterMain>}></Route>
         <Route path="/gym" element={<Gym></Gym>}></Route>
         <Route path="/carmain" element={<CarMain></CarMain>}></Route>
