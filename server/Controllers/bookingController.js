@@ -52,3 +52,43 @@ exports.bookPlumber = async (req, res) => {
     }
 };
 
+
+exports.bookGroceries = async (req, res) => {
+    try {
+        const { name, email, address, phoneNumber } = req.body;
+        const newBooking = new Booking({ service: 'groceries', name, email, address, phoneNumber });
+        await newBooking.save();
+        res.status(201).json({ success: true, message: 'grocery booked successfully...' });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ success: false, message: 'An error occurred while booking the grocery' });
+    }
+};
+
+
+
+exports.bookTravel = async (req, res) => {
+    try {
+        const { name, email, address, phoneNumber } = req.body;
+        const newBooking = new Booking({ service: 'travel', name, email, address, phoneNumber });
+        await newBooking.save();
+        res.status(201).json({ success: true, message: 'your travel booking successfully...' });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ success: false, message: 'An error occurred while booking the grocery' });
+    }
+};
+
+
+exports.bookEletrician = async (req, res) => {
+    try {
+        const { name, email, address, phoneNumber } = req.body;
+        const newBooking = new Booking({ service: 'eletrician', name, email, address, phoneNumber });
+        await newBooking.save();
+        res.status(201).json({ success: true, message: 'your Electrician booking successfully...' });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ success: false, message: 'An error occurred while booking the grocery' });
+    }
+};
+

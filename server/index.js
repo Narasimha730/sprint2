@@ -1,4 +1,4 @@
-// index.js
+
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -19,5 +19,5 @@ app.use('/api/bookings', bookingRoutes);
 // Start server
 const PORT = process.env.PORT || 7000;
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ...${PORT}`);
 });

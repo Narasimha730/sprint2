@@ -1,8 +1,8 @@
-// Booking.js (Model)
+
 const mongoose = require('mongoose');
 
 const bookingSchema = new mongoose.Schema({
-    service: String, // 'car', 'fitpass', 'appointment', 'plumber', etc.
+    service: String, // 'car', 'fitpass', 'appointment', 'plumber', 'groceries', etc.
     name: String,
     email: String,
     address: String,
