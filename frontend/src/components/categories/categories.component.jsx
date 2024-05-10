@@ -84,7 +84,7 @@ export function HomeCategories() {
 
                             <div className='mt-4 col-sm-6 col-md-2  ' style={{ alignItems: "center" }}>
                                 <Link to="/hotels" style={{ textDecoration: 'none', color: 'black' }}>
-                                    <img src="./images/hotellogo.jpg" className='categories' />
+                                    <img src="./images/hotellogo.png" className='categories' />
                                     <h6 style={{ marginLeft: "16px", fontFamily: " sans-serif" }}>Hotels</h6>
                                 </Link>
                             </div>

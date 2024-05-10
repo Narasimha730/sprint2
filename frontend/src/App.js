@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Header from "./components/Headers/Headers";
-import Home from "./pages/Home/Home";
+// import Home from "./pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import { Footer } from './components/footer/footer.component';
 
@@ -35,8 +35,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='about' element={<About></About>} />
+        {/* <Route path='/' element={<Home />} /> */}
+        <Route path='/about' element={<About></About>} />
         <Route path='/homepage' element={<HomePageComponent></HomePageComponent>}></Route>
         <Route path="/fitnessCenters" element={<FitnesscenterMain></FitnesscenterMain>}></Route>
         <Route path="/gym" element={<Gym></Gym>}></Route>
