@@ -25,11 +25,6 @@ import { Voltronix } from './pages/Electrician/Voltronix/Voltronix';
 import About from './components/About/About';
 
 
-
-
-
-
-
 function App() {
   return (
     <>

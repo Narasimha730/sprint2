@@ -18,6 +18,8 @@ export function GroceryMain() {
                             </div>
                             <div className='col-2'>
 
+
+
                                 <span className='car_ratings'>4.5&nbsp;<StarFill></StarFill></span>
                             </div>
                         </div>
