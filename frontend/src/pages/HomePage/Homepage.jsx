@@ -5,13 +5,9 @@ import { HomeSliderComponent } from '../../components/home-slider/home-slider.co
 import Image from '../../components/Images/Image';
 
 
-
 export function HomePageComponent() {
     return (
-
-
         <div>
-
 
             <div className="mt-1">
                 <div>
@@ -25,6 +21,7 @@ export function HomePageComponent() {
                     <Image></Image>
                 </div>
             </div>
+
         </div>
 
     )
